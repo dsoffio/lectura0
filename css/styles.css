@@ -1,0 +1,40 @@
+h1 {
+  color:blue;
+  text-align:center;
+}
+
+p {
+  color:red;
+}
+
+div {
+  border: 5px solid blue;
+  background-color: teal;
+  width: 200px;
+  height: 200px;
+  margin: 30px;
+  padding: 20px; <!-- le da margen al texto -->
+  font-family: arial, sans-serif;
+  font-size: 28px;
+  font-weight: bold;
+}
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+}
+th {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+}
+ <!-- los ultimos 2 se resumen asi -->
+th, td {
+  border: 1px solid black;
+  padding: 5px;
+}
+th{
+  background-color: lightgrey;
+}
